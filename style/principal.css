@@ -1,2 +1,11 @@
-@import url(/style/header.css);
 @import url(/style/global.css);
+@import url(/style/header.css);
+@import url(utilidades/tipografia.css);
+@import url(utilidades/cores.css);
+@import url(/style/main.css);
+@import url(/style/bicicletas.css);
+@import url(/style/tecnologias.css);
+@import url(/style/parceiros.css);
+@import url(/style/depoimento.css);
+@import url(/style/seguros.css);
+@import url(/style/footer.css);
