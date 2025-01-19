@@ -1,13 +1,43 @@
+/*Config global*/
 @import url(/style/global.css);
+
+/*header*/
 @import url(/style/header.css);
+
+/*utilidades*/
 @import url(utilidades/tipografia.css);
 @import url(utilidades/cores.css);
+@import url(utilidades/formulario.css);
+
+
+/*main*/
 @import url(/style/main.css);
 @import url(/style/bicicletas.css);
 @import url(/style/tecnologias.css);
 @import url(/style/parceiros.css);
 @import url(/style/depoimento.css);
-@import url(/style/seguros.css);
-@import url(/style/footer.css);
+
+/*Seguros*/
+@import url(seguros/seguros.css);
+@import url(seguros/vantagens.css);
+@import url(seguros/perguntas.css);
+
+/*Termos*/
 @import url(/style/termos.css);
+
+/*Bicicletas lista*/
 @import url(/style/bicicletas-comprar.css);
+@import url(/bicicleta/seguro.css);
+
+/*informações bibicletas*/
+@import url(/style/informacoesBicicletas/bicicleta.css);
+
+/*Contato*/
+@import url(/style/contato/contato.css);
+@import url(/style/contato/lojas.css);
+
+/*Orcamento*/
+@import url(/orcamento/orcamento.css);
+
+/*Footer*/
+@import url(/style/footer.css);
