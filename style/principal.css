@@ -41,3 +41,6 @@
 
 /*Footer*/
 @import url(/style/footer.css);
+
+/*animações*/
+@import url(/style/utilidades/animacoes.css);

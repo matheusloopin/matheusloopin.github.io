@@ -13,21 +13,25 @@
 .perguntas dl > div:nth-child(odd){
   background-color: #f7f7f7;
 }
-.perguntas dt{
+.perguntas button{
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
 }
-.perguntas dt::before{
+.perguntas button::before{
   content: "";
   display: inline-block;
   width: 12px;
   height: 8px;
   background-color: var(--cor-p1);
 }
-.perguntas dt::after{
+.perguntas button::after{
   content: "";
   display: inline-block;
   width: 12px;
@@ -36,14 +40,28 @@
   background: url(/imagens/img/icones/seta-abrir.svg);
   transition: 0.3s;
 }
-.perguntas dt:hover::after{
+.perguntas button:hover::after,
+.perguntas button [aria-expanded="true"]::after
+{
   transform: rotate(180deg);
 }
-.perguntas dd{
-  padding-left: 20px;
-  padding-top: 16px;
-  max-width: 80ch;
+
+.js .perguntas dd {
+  display: grid;
+  grid-template-rows: 0fr; 
+  opacity: 0;
+  transition: grid-template-rows 0.4s ease-in-out, opacity 0.4s ease-in-out, padding 0.4s;
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
+.js .perguntas dd.ativa {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 @media (max-width: 800px){
   .perguntas{
     padding-top: 60px;
