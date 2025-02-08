@@ -1,8 +1,8 @@
 /*Config global*/
-@import url(/style/global.css);
+@import url("global.css");
 
 /*header*/
-@import url(/style/header.css);
+@import url("header.css");
 
 /*utilidades*/
 @import url(utilidades/tipografia.css);
@@ -11,11 +11,11 @@
 
 
 /*main*/
-@import url(/style/main.css);
-@import url(/style/bicicletas.css);
-@import url(/style/tecnologias.css);
-@import url(/style/parceiros.css);
-@import url(/style/depoimento.css);
+@import url("main.css");
+@import url("bicicletas.css");
+@import url("tecnologias.css");
+@import url("parceiros.css");
+@import url("depoimento.css");
 
 /*Seguros*/
 @import url(seguros/seguros.css);
@@ -40,7 +40,7 @@
 @import url(/orcamento/orcamento.css);
 
 /*Footer*/
-@import url(/style/footer.css);
+@import url("footer.css");
 
 /*animações*/
 @import url(/style/utilidades/animacoes.css);
